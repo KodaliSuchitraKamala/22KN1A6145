@@ -1,0 +1,63 @@
+/*resetting the css*/
+*{
+margin:0px;
+padding:0px;
+}
+body{
+background: url(D:/suchitra/book-4600757_1280.jpg);
+height:10%;
+background-position: center;
+background-size: cover;
+background-repeat: no-repeat;
+font-size:18px;
+}
+.left{
+border:2px solid red;
+display:inline-block;
+position:absolute;
+top:12px;
+left:20px;
+}
+.mid{
+border:2px solid yellow;
+width:45%;
+margin:12px auto;
+}
+.right{
+border:2px solid green;
+display:inline-block;
+position:absolute;
+top:12px;
+right:20px;
+}
+.navbar li{
+display:inline-block;
+}
+.navbar li a{     
+color:rgb(22,49,40);
+text-decoration:none;
+margin:8px  35px;
+}
+.navbar li a:hover,.navbar li a:active{
+text-decoration:underline;
+font-size:20px;
+color:aquamarine;
+}
+.left img{
+float:left;
+width:30px;
+height:30px;
+}
+.left h3{
+float:left;
+}
+.btn{
+background-color:blue;
+margin:3px 8px;
+padding: 1px 16px;
+border-radius:10px;
+cursor:pointer;
+}
+.btn:hover{
+background-color:rgb(92,92,156);
+
